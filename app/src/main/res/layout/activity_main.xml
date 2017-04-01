@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.harsh.widgetdemo.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button"
+        android:textColor="#FFF"
+        android:background="@drawable/button_bg_transparent"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Choose Date Time" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:text="Chosen Date Time"
+        android:id="@+id/chosenDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

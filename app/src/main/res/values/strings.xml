@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Count Down Timer</string>
+    <string name="appwidget_text">Updating</string>
+    <string name="add_widget">Add widget</string>
+</resources>
